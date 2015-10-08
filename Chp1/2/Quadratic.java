@@ -7,9 +7,6 @@ public class Quadratic {
 		double x_1 = ((b * -1) + Math.sqrt((Math.pow(b,2)) - 4 * a * c)) * (1 / (2 * a));
 		double x_2 = ((b * -1) - Math.sqrt((Math.pow(b,2)) - 4 * a * c)) * (1 / (2 * a));
 
-		// double x_1 = ((b * -1) + Math.sqrt(Math.pow(b,2) - (4 * a * c))) * (1 / (2 * a));
-		// double x_2 = ((b * -1) + Math.sqrt(Math.pow(b,2) - (4 * a * c))) * (1 / (2 * a));
-
 		System.out.println("The first possible number is: " + x_1);
 		System.out.println("The second possible solution is: " + x_2);
 	}
